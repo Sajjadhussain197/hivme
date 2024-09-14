@@ -38,7 +38,7 @@ export default function FileUploadScreen() {
                 <span>Uploading...</span>
                 <span>50%</span>
               </div>
-              <Progress value={50} className="h-2 bg-[#12213B]" indicatorClassName="bg-[#3371FF]" />
+              {/* <Progress value={50} className="h-2 bg-[#12213B]" indicatorClassName="bg-[#3371FF]" /> */}
             </div>
           </div>
           <Button className="w-full bg-[#3371FF] hover:bg-[#2861E0] text-white">
