@@ -56,7 +56,7 @@ export default function ChatComponent() {
                 <div>
                   <div className="flex items-baseline">
                     <span className="font-semibold mr-2">{message.sender}</span>
-                    <span className="text-xs text-gray-400">{message.timestamp}</span>
+                    {/* <span className="text-xs text-gray-400">{message.timestamp}</span> */}
                   </div>
                   <p className="mt-1 text-sm bg-[#12213B] p-2 rounded-md inline-block">{message.content}</p>
                 </div>
